@@ -1,4 +1,4 @@
-#This is how we learned to concatenate strings in the ITF+ class.
+#This is how we learned to concatenate strings in the ITF+ class
 a = "String 1"
 b = "String 2"
 print("a =" + a + " and  b=" + b)
@@ -10,3 +10,8 @@ print(f"x = {x} and y = {y}")
 
 #We could also use an f-string like this:
 print("c = {c} and d = {d}".format(c=1, d=2))
+
+job_list = {'john': 'doctor', 'jane': 'engineer', 'jim': 'teacher'}
+
+for name, job in job_list.items():
+    print(f"{name}is a {job}")
